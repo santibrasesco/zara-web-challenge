@@ -1,0 +1,22 @@
+.image {
+    width: 180px;
+    height: 268px;
+}
+
+.titleContainer {
+    height: 44px;
+}
+
+.titleContainer h4 {
+    margin: 5px 0 5px 0;
+}
+
+.date {
+    margin-bottom: 0;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}

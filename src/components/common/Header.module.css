@@ -1,0 +1,27 @@
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 5% 16px 5%;
+    gap: 100px;
+    background: black;
+    color: white;
+    border-bottom: 1px solid #b7b7b73b;
+}
+
+.logo {
+    content: url('/public/marvelLogo.png');
+    position: relative;
+    width: 130px;
+    height: 52px;
+}
+
+.contentFav {
+    display: inline-flex;
+    gap: 10px;
+}
+
+a {
+    color: unset;
+}

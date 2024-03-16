@@ -1,0 +1,27 @@
+.image {
+    height: 15px;
+    width: 15px;
+}
+
+.fav {
+    content: var(--url-fav);
+    height: 100%;
+    width: 100%;
+}
+
+.isHovered.fav {
+    content: var(--url-fav-white);
+    height: 100%;
+    width: 100%;
+}
+
+.noFav {
+    content: var(--url-no-fav);
+    height: 100%;
+    width: 100%;
+}
+
+.image.large {
+    height: 25px;
+    width: 25px;
+}

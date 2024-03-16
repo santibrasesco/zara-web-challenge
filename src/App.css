@@ -1,0 +1,48 @@
+:root {
+  --url-fav: url("/public/heart.png");
+  --url-no-fav: url('/public/heartEmpty.png');
+  --url-fav-white: url('/public/heartWhite.png');
+  --marvel-red: #EC1D24;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+input {
+  width: 100%;
+  padding: 10px 0;
+  margin: 10px 0 10px 0;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  outline: none;
+  background-color: transparent;
+}
+
+input:focus {
+  border-bottom: 1px solid #007bff;
+}
+
+.fav {
+  content: var(--url-fav);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex.space-between {
+  justify-content: space-between;
+}
+
+.flex.space-around {
+  justify-content: space-around;
+}
+
+.flex.items-baseline {
+  align-items: baseline;
+}
